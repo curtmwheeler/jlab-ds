@@ -77,6 +77,7 @@ If you plan to expose this outside your machine, update the `CMD` in `Dockerfile
   ```bash
   docker compose -f docker/docker-compose.yml build --no-cache
   ```
+  
 * Override configs → create `docker-compose.override.yml` at the project root instead of editing files here.
 
 ---
