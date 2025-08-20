@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+environment/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# General
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.db
+*.sqlite
+*.h5
+*.parquet
+
+# Project folders
+projects/*/data/
+projects/*/output/
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore system files
+Thumbs.db

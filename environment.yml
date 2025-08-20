@@ -1,0 +1,38 @@
+name: r-ds
+channels:
+  - conda-forge
+dependencies:
+  # Core interpreter versions
+  - python
+  - r-base
+
+  # Jupyter ecosystem
+  - jupyterlab
+  - nodejs
+  - ipykernel
+  - r-irkernel
+
+  # R data science meta-packages
+  - r-essentials         # includes ggplot2, dplyr, readr, tidyr, caret, etc.
+  - r-tidyverse          # ensure full tidyverse suite
+  - r-data.table
+  - r-arrow
+  - r-shiny
+  - r-plotly
+  - r-rmarkdown
+
+  # Python core DS stack (lightweight)
+  - numpy
+  - pandas
+  - polars
+  - matplotlib
+  - plotly
+
+  # R–Python bridge
+  - rpy2
+
+  # Optional extras (uncomment if needed for AI/ML parts of class)
+  # - r-caret
+  # - r-randomforest
+  # - r-xgboost
+  # - scikit-learn
