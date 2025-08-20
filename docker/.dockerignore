@@ -1,0 +1,48 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+environment/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore data and output folders
+projects/*/data/
+projects/*/output/
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore log files
+*.log
+
+# Ignore CSV, Excel, and other data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.db
+*.sqlite
+*.h5
+*.parquet
+
+# Ignore Docker Compose override
+Dockerfile*
+docker-compose.override.yml
