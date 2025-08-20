@@ -73,11 +73,18 @@ This will:
 ## 📂 Project Structure
 
 ```
-docker/
-  ├── Dockerfile            # Recipe for building the environment
-  ├── docker-compose.yml    # Instructions for running it
-  ├── .dockerignore         # Files to skip when building
-  └── environment.yml       # List of software packages to install
+┌── docker
+│   ├── docker-compose.yml
+│   ├── Dockerfile
+│   └── README.md
+├── environment.yml
+├── LICENSE.md
+├── README.md
+└── src
+    ├── projects
+    │   ├── config_check
+    │   └── README.md
+    └── README.md
 ```
 
 <details>
@@ -103,6 +110,7 @@ docker/
   ```bash
   docker build -t jlab-ds .
   ```
+
 * Rebuild after editing `environment.yml`:
 
   ```bash
